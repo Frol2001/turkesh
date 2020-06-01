@@ -360,7 +360,8 @@ template {
 
 .policy__label {
   display: flex;
-  align-items: center; }
+  align-items: center;
+  font-size: 1.142rem; }
   .policy__label::before {
     content: "";
     width: 18px;
@@ -369,6 +370,8 @@ template {
     border-radius: 1px;
     cursor: pointer;
     margin-right: 0.64rem; }
+  .policy__label--center {
+    justify-content: center; }
 
 .container {
   width: 85%;
@@ -725,6 +728,39 @@ img {
     margin-bottom: 2.7rem; }
   .modal__button {
     align-self: flex-end; }
+
+.footer-wrap {
+  background-color: #181818;
+  max-width: 53.07rem;
+  margin: auto;
+  padding: 2.5rem; }
+
+.footer__title {
+  text-transform: uppercase;
+  font-family: 'Yeseva One', cursive;
+  font-weight: normal;
+  font-size: 1.428rem;
+  text-align: center;
+  margin-bottom: 3.214rem; }
+
+.footer__form {
+  display: flex;
+  flex-wrap: wrap; }
+
+.footer__input-group {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 50%;
+  margin-bottom: 2rem; }
+  .footer__input-group--full-widht {
+    flex-basis: 100%; }
+
+.footer__policy {
+  flex-basis: 100%;
+  margin-bottom: 2rem; }
+
+.footer__button {
+  margin: auto; }
 
 .projekts {
   padding-bottom: 30rem; }
